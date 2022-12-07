@@ -2,14 +2,14 @@ version: "3.9" #version of docker-compose
 services:
   db:
     container_name: webtodolist-db
-    image: mariadb:10.3
+    image: docker.io/library/mariadb:10.3
     ports:
       - "3307:3306"
     restart: always
     environment:
-      MYSQL_USER: 'root'
-      MYSQL_PASSWORD: 'root'                    #default password of the MySQL container
-      MYSQL_ROOT_PASSWORD: 'root'
+      MARIADB_USER: "user"
+      MARIADB_USER_PASSWORD: "user"
+      MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: "yes"
     volumes:
       - ./db:/docker-entrypoint-initdb.d/:ro          #database files called when the container is built and started for the first time
   web:
