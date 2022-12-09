@@ -19,9 +19,9 @@ cd docker-webtodolist
 
 Build and run the image
 ```bash
-docker-compose -f docker-compose.yml up
+docker-compose -f docker_compose.yml up
 #or
-docker compose -f docker-compose.yml up
+docker compose -f docker_compose.yml up
 ```
 
 The app is now running on `localhost:8080`
