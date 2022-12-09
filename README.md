@@ -7,7 +7,7 @@ I tried to containerize my java EE web app linked to a database.\
 
 ## Prerequisites
 
-Having docker installed.
+`docker` and `docker-compose` 
 
 ## Clone and build the image
 
