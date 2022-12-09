@@ -1,5 +1,10 @@
 # docker-webtodolist
 
+## Context
+
+I tried to containerize my java EE web app linked to a database.\
+[Web app source code](https://github.com/strawhattom/WebTodoList)
+
 ## Prerequisites
 
 Having docker installed.
