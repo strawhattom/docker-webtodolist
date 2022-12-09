@@ -4,8 +4,15 @@
 
 Having docker installed.
 
-## Build the image
+## Clone and build the image
 
+Clone the project
+```bash
+git clone https://github.com/strawhattom/docker-webtodolist
+cd docker-webtodolist
+```
+
+Build and run the image
 ```bash
 docker-compose -f docker-compose.yml up
 ```
