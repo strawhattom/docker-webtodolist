@@ -4,7 +4,7 @@ services:
     container_name: webtodolist-db
     image: docker.io/library/mariadb:10.3
     ports:
-      - "3307:3306"
+      - "3306:3306"
     restart: always
     environment:
       MARIADB_USER: "user"
